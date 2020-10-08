@@ -49,6 +49,11 @@ otf2bdf 3.1(http://sofia.nmsu.edu/~mleisher/Software/otf2bdf/)
 
 ## BDF to c
 
+https://github.com/olikraus/u8g2/blob/master/tools/font/bdfconv/bdfconv.exe
+https://github.com/olikraus/u8g2/blob/master/tools/font/build/japanese3.map
+
+上記を利用しています。
+
 ```
 bdfconv.exe -v -b 0 -f 1 -M "japanese3.map" ..\bdf\ilfontm_8.bdf -o ..\output\u8g2_font_ilfontm_8.c  -n u8g2_font_ilfontm_8
 bdfconv.exe -v -b 0 -f 1 -M "japanese3.map" ..\bdf\ilfontm_12.bdf -o ..\output\u8g2_font_ilfontm_12.c  -n u8g2_font_ilfontm_12
